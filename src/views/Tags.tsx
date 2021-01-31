@@ -5,6 +5,8 @@ import {useTags} from 'useTags';
 import Icon from 'components/Icon';
 import {Link} from 'react-router-dom';
 import {Button} from 'components/Button';
+import { Center } from 'components/Center';
+import { Space } from 'components/Space';
 
 const TagList = styled.ol`
   font-size: 16px;
@@ -22,17 +24,6 @@ const TagList = styled.ol`
       padding: 12px 16px 12px 0;
     }
   }
-`;
-
-const Center = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`;
-
-const Space = styled.div`
-  height: 16px;
 `;
 
 function Tags() {
